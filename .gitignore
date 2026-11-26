@@ -12,3 +12,4 @@ coverage/
 
 !/package-lock.json
 .local/
+/src/mastra/knowledge/startup-datasets.generated.mjs

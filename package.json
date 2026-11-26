@@ -9,7 +9,9 @@
     "node": "^22.19.0 || >=24.11.0"
   },
   "scripts": {
-    "build": "mastra build && node scripts/package-knowledge-datasets.ts",
+    "prebuild": "node scripts/package-knowledge-datasets.ts",
+    "build": "mastra build",
+    "predev": "node scripts/package-knowledge-datasets.ts",
     "format": "oxfmt .",
     "format:check": "oxfmt --check .",
     "dev": "node --env-file-if-exists=.env scripts/dev.ts",

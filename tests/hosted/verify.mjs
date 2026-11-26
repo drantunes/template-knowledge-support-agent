@@ -987,8 +987,9 @@ try {
       env: { ...env, ...databaseEnv(db) },
       timeout: 30000,
     });
-  // VPC PostgreSQL must seed a fresh database from the deploy artifact before serving support requests.
-  const bootstrapped = provider === 'postgres' ? await worker(db, { seedOnStartup: true }) : undefined;
+  // The deployment artifact must seed a fresh managed database before serving support requests.
+  const bootstrapped =
+    provider === 'postgres' || provider === 'turso' ? await worker(db, { seedOnStartup: true }) : undefined;
   if (bootstrapped) await json(request(bootstrapped, pageRoute('tenant:retailops#policies/safe-changes'), technician));
   const seeded = await seed();
   assert.match(seeded.stdout, /retail-pos-docs/u);

@@ -58,7 +58,7 @@ Set these environment variables in the platform dashboard.
 - `MASTRA_ORGANIZATION_ID` with the ID of the organization that owns the project.
 - `MASTRA_PLATFORM_STUDIO_AUTH=disabled` so Studio uses the template's Mastra sign-in and access rules.
 
-The database needs the example Knowledge before Support can answer questions. For a fresh database, `SUPPORT_SEED_ON_STARTUP=true` loads the example on first start when the deployment includes the dataset packaged by `npm run build`.
+The database needs the example Knowledge before Support can answer questions. For a fresh database, `SUPPORT_SEED_ON_STARTUP=true` loads the example on first start when the deployment uses the template’s build, which bundles the example data with the server.
 
 ## About Mastra templates
 
