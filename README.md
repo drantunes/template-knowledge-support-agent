@@ -2,8 +2,6 @@
 
 Describe a support issue in Mastra Studio and get a next step grounded in your team's guides, policies, and past cases. The support agent searches Mastra Knowledge, cites the pages it uses, and asks follow-up questions to narrow down the problem.
 
-<img src="https://svgbutton.com/v1/button.svg?paddingX=2&amp;paddingY=2" alt="Deploy to Mastra Platform" width="120" style="min-width: 120px !important; max-width: 120px !important; height: auto;" />
-
 ## Why we built this
 
 When a fix lives in a closed ticket or an old chat, the next technician may have to investigate the same problem from scratch. With Mastra Knowledge, a reviewer can turn a confirmed fix into guidance that other technicians can find in future conversations.
@@ -48,8 +46,6 @@ Teams can share guides while limiting access to each customer's case history. Pi
 ## Deploy to Mastra Platform
 
 [Deploy to Mastra Platform](https://projects.mastra.ai/~/projects/create/https:/github.com/drantunes/template-knowledge-support-agent) to create a project from this template. Attach a managed Turso, Neon, or PostgreSQL database to your environment. Mastra sets the database connection variables automatically. [Managed databases](https://mastra.ai/docs/mastra-platform/database)
-
-<img src="https://svgbutton.com/v1/button.svg?paddingX=2&amp;paddingY=2" alt="Deploy to Mastra Platform" width="120" style="min-width: 120px !important; max-width: 120px !important; height: auto;" />
 
 Set these environment variables in the platform dashboard.
 
