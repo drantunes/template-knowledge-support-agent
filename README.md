@@ -2,7 +2,7 @@
 
 Describe a support issue in Mastra Studio and get a next step grounded in your team's guides, policies, and past cases. The support agent searches Mastra Knowledge, cites the pages it uses, and asks follow-up questions to narrow down the problem.
 
-<a class="inline-block" href="https://projects.mastra.ai/~/projects/create/https:/github.com/drantunes/template-knowledge-support-agent" aria-label="Deploy to Mastra Platform"><video class="w-auto! mt-0! !mb-0 border-none" width="114" height="38" poster="https://svgbutton.com/v1/button.svg?paddingX=2&amp;paddingY=2"></video></a>
+<a class="inline-block mt-3" href="https://projects.mastra.ai/~/projects/create/https:/github.com/drantunes/template-knowledge-support-agent" aria-label="Deploy to Mastra Platform"><video class="w-auto! mt-0! !mb-0 border-none" width="114" height="38" poster="https://svgbutton.com/v1/button.svg?paddingX=2&amp;paddingY=2"></video></a>
 
 ## Why we built this
 
