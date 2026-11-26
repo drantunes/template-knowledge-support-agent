@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="100" viewBox="0 0 800 100" fill="none" style="background-color: #0a0a0a;">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="100" viewBox="0 0 800 100" fill="none">
+  <rect width="800" height="100" fill="#0a0a0a"/>
   <g style="scale: min(calc(800px / 100vw), calc(100 / 38)); transform-origin: 0 0;">
 <rect x="0.5" y="0.5" width="113" height="37" rx="5.5" fill="black" stroke="#18181B"/>
 <g transform="translate(2 2)">
