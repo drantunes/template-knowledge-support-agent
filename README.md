@@ -65,15 +65,3 @@ The database needs the example Knowledge before Support can answer questions. Fo
 This official template is maintained in the [Mastra monorepo](https://github.com/mastra-ai/mastra) and synchronized to a standalone repository.
 
 [Want to contribute?](https://github.com/mastra-ai/mastra/blob/main/templates/template-knowledge-support-agent/CONTRIBUTING.md)
-
-<style>
-  article.prose button:has(> img[alt="Deploy"][src*="svgbutton.com"]),
-  article.prose img[alt="Deploy"][src*="svgbutton.com"] {
-    width: 120px;
-    max-width: 100%;
-  }
-
-  article.prose img[alt="Deploy"][src*="svgbutton.com"] {
-    height: auto;
-  }
-</style>
